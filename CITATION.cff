@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+
+title: "Decision Security Engineering"
+
+message: "If you use this work, please cite it."
+
+type: software
+
+authors:
+  - family-names: Galani
+    given-names: Chandan
+
+repository-code: "https://github.com/LOLA0786/dse.github.io"
+
+abstract: >
+  Decision Security Engineering (DSE) is a proposed engineering framework
+  for runtime validation of autonomous AI decisions before execution.
+
+keywords:
+  - Artificial Intelligence
+  - AI Security
+  - Runtime Security
+  - Autonomous Agents
+  - Decision Security Engineering
+  - Agent DNA
+  - Decision Integrity Engine
+  - Decision Lineage
+
+license: MIT
+
+version: "0.1.0"
