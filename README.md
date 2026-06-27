@@ -1,144 +1,16 @@
-# Decision Security Engineering (DSE)
+# React + Vite
 
-> Engineering Trust Before Execution.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Decision Security Engineering (DSE) is an emerging engineering discipline focused on validating autonomous AI decisions **before execution**.
+Currently, two official plugins are available:
 
-Unlike traditional AI security approaches that primarily detect, monitor, or audit behavior after it occurs, DSE introduces runtime decision validation, intent verification, behavioral integrity, and policy enforcement directly into the execution path.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## Mission
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Create the engineering standards, architecture, and reference implementations required to secure autonomous AI systems operating in production.
+## Expanding the Oxlint configuration
 
----
-
-## Why Decision Security Engineering?
-
-Today's AI security ecosystem primarily addresses:
-
-- Infrastructure Security
-- Identity & Access Management
-- Cloud Security
-- Prompt Injection
-- Jailbreak Detection
-- Model Monitoring
-- AI Governance
-
-These are essential capabilities.
-
-However, none answer the critical runtime question:
-
-> **Should this autonomous decision be allowed to execute?**
-
-Decision Security Engineering introduces a dedicated runtime control layer for AI decision validation.
-
----
-
-# Core Principles
-
-- Intent Integrity
-- Agent DNA™
-- Runtime Policy Enforcement
-- Decision Integrity
-- Continuous Trust
-- Decision Lineage
-- Replayable Execution
-- Immutable Audit Trails
-
----
-
-# Reference Architecture
-
-
-User
-
-↓
-
-AI Agent
-
-↓
-
-Decision Integrity Engine
-
-↓
-
-Agent DNA™
-
-↓
-
-Policy Engine
-
-↓
-
-Consensus
-
-↓
-
-Execution
-
-↓
-
-Immutable Audit Ledger
-
-
----
-
-# Reference Implementation
-
-**PrivateVault**
-
-PrivateVault is the first reference implementation of the Decision Security Engineering framework.
-
-Major capabilities include:
-
-- Agent DNA™
-- Decision Integrity Engine
-- Runtime Policy Enforcement
-- Multi-Agent Consensus
-- Trust Fabric
-- Immutable Audit Ledger
-- Replay Engine
-- Runtime Economics
-- Approval Binding
-- World State Replay
-
----
-
-# Website
-
-https://lola0786.github.io/dse.github.io/
-
----
-
-# Whitepaper
-
-Coming Soon
-
----
-
-# Research Areas
-
-- Agent Runtime Security
-- Decision Integrity
-- Behavioral Identity
-- Trust Scoring
-- Autonomous AI Governance
-- Agent Economics
-- Runtime Policy Enforcement
-- Multi-Agent Consensus
-
----
-
-# Status
-
-This repository serves as the official website and public documentation for the Decision Security Engineering initiative.
-
----
-
-## License
-
-Copyright © 2026 Decision Security Engineering.
-
-All rights reserved.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.

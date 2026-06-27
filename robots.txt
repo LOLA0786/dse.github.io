@@ -1,5 +1,0 @@
-User-agent: *
-
-Allow: /
-
-Sitemap: https://lola0786.github.io/dse.github.io/sitemap.xml
