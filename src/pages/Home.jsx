@@ -1,51 +1,21 @@
+import Hero from "../sections/Hero";
+import Evolution from "../sections/Evolution";
+import Problem from "../sections/Problem";
+import Architecture from "../sections/Architecture";
+
 export default function Home(){
 
 return(
 
 <>
 
-<section className="hero">
+<Hero/>
 
-<div className="hero-badge">
+<Evolution/>
 
-INTRODUCING A NEW ENGINEERING DISCIPLINE
+<Problem/>
 
-</div>
-
-<h1>
-
-Engineering Trust
-
-<br/>
-
-Before Execution.
-
-</h1>
-
-<p>
-
-Decision Security Engineering is an open engineering framework
-for protecting autonomous AI decisions before they execute.
-
-</p>
-
-<div className="hero-buttons">
-
-<button className="primary">
-
-Read Whitepaper
-
-</button>
-
-<button className="secondary">
-
-Explore Framework
-
-</button>
-
-</div>
-
-</section>
+<Architecture/>
 
 </>
 
