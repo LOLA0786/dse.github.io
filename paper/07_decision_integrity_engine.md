@@ -3,7 +3,7 @@
 The preceding chapters established *why* autonomous decisions require a dedicated
 runtime validation layer, and *what* evidence that layer should consider. This
 chapter makes the paper's central engineering claim concrete. It is not enough to
-assert that a runtime layer should "aggregate multiple sources of evidence" —
+assert that a runtime layer should "aggregate multiple sources of evidence" 
 that statement is true of almost any monitoring system and commits to nothing.
 The contribution of Decision Security Engineering is a *specific, opinionated
 rule* for how heterogeneous evidence is combined into a single enforcement
