@@ -1,16 +1,98 @@
-# React + Vite
+# Decision Security Engineering (DSE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Engineering Trust Before Execution.
 
-Currently, two official plugins are available:
+Decision Security Engineering (DSE) is a proposed engineering discipline for validating autonomous AI decisions before execution.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Unlike traditional AI security approaches that primarily protect models, infrastructure, identities, or data, Decision Security Engineering focuses on evaluating the trustworthiness of autonomous decisions immediately before they produce external actions.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Core Concepts
 
-## Expanding the Oxlint configuration
+- Decision Proposal
+- Decision Integrity Engine
+- Agent DNA
+- Trust Fabric
+- Decision Lineage
+- Runtime Decision Validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Repository Structure
+
+
+paper/ Research paper
+docs/ Technical specifications
+research/ Research roadmap
+rfcs/ Future RFCs
+src/ Website source
+public/ Static assets
+latex/ Publication source
+
+
+---
+
+## Research Paper
+
+The complete paper is available in:
+
+
+paper/paper.md
+
+
+Individual chapters are maintained separately under the `paper/` directory.
+
+---
+
+## Reference Implementation
+
+PrivateVault is presented as the reference implementation of the architectural concepts described in this repository.
+
+Decision Security Engineering remains implementation independent.
+
+---
+
+## Project Status
+
+Current Version:
+
+**v0.1 Draft**
+
+Current focus:
+
+- Research paper
+- Reference architecture
+- Related work
+- Formal definitions
+- Figures
+- Bibliography
+- LaTeX publication
+
+---
+
+## Contributing
+
+Please read:
+
+- CONTRIBUTING.md
+- CODE_OF_CONDUCT.md
+- SECURITY.md
+
+Technical discussion and constructive feedback are welcome.
+
+---
+
+## Citation
+
+Please use the provided `CITATION.cff` file when citing this repository.
+
+---
+
+## License
+
+MIT License
+
+---
+
+Decision Security Engineering is an open research effort exploring runtime validation of autonomous AI decisions before execution.
